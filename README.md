@@ -12,11 +12,11 @@ The given data set required additional wrangling and cleaning prior to analysis.
 * Various portions of data, including campaign success outcomes and percentage funded achieved were color-coded to aid in quick visual evaluation. 
 * Initial data set contained a category called "Category and Subcategory" were separated into two columns, named "Parent Category" and "Subcategory" to aid in analysis. 
 ### Analysis Based on Launch Date
-The focus of this analysis was to investigate whether the launch date could impact whether a campaign would reach it's funding goal.</br>
+The focus of this analysis was to investigate if the launch date could impact whether or not a campaign would reach its funding goal.</br>
 The given campaign start dates were converted from UNIX time stamps to standard formatting. The year the campaign was started in was isolated into its own column. A pivot table was created, visualizing the sums of each potential outcome that occurred every month, as well as the total of all campaigns attempted per month. This table was able to be filtered by category and by years. The data was then filtered by category "Theater".
 ![Theater Outcome vs Launch](resources/Theater_Outcomes_vs_Launch.png)
 ### Analysis of Outcomes Based on Goals
-The focus of this analysis was to investigate whether the size of the goal fund could impact whether a campaign would reach its funding goal.</br>
+The focus of this analysis was to investigate if the size of the goal fund could impact whether or not a campaign would reach its funding goal.</br>
 A new table was created, delineating the categories of funding goals. The number of plays in each goal category were counted based on their success/failure/cancellation, and the percentages of each success/failure/cancellation were calculated.
 ![Outcomes vs Goals](resources/Outcomes_vs_Goals.png)
 ### Challenges and Difficulties Encountered
