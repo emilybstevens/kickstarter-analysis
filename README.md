@@ -14,11 +14,11 @@ The given data set required additional wrangling and cleaning prior to analysis.
 ### Analysis Based on Launch Date
 The focus of this analysis was to investigate whether the launch date could impact whether a campaign would reach it's funding goal.</br>
 The given campaign start dates were converted from UNIX time stamps to standard formatting. The year the campaign was started in was isolated into its own column. A pivot table was created, visualizing the sums of each potential outcome that occurred every month, as well as the total of all campaigns attempted per month. This table was able to be filtered by category and by years. The data was then filtered by category "Theater".
-------INSERT PNG
+![Theater Outcome vs Launch](resources/Theater_Outcomes_vs_Launch.png)
 ### Analysis of Outcomes Based on Goals
 The focus of this analysis was to investigate whether the size of the goal fund could impact whether a campaign would reach its funding goal.</br>
 A new table was created, delineating the categories of funding goals. The number of plays in each goal category were counted based on their success/failure/cancellation, and the percentages of each success/failure/cancellation were calculated.
-------INSERT PNG
+![Outcomes vs Goals](resources/Outcomes_vs_Goals.png)
 ### Challenges and Difficulties Encountered
 Personally, my biggest challenge was getting the pivot tables situated correctly. I'm used to manually creating tables because I like the level of control that it gives me over formatting, so trying to use the pivot table function could get frustrating sometimes. Once I figured out how to get everything situated (after practicing), I felt a little bit better about the whole process. </br>
 One of the biggest challenges that could potentially hinder someone trying to manage this data is all of the manual work that went into it. In particular, setting up the table for the Outcomes vs. Goals portion required more manual data input than the Launch Date portion, simply because the Goals portion couldn't be created using a pivot table. This opens up the analyst to a host of potential user errors that could cause issues. </br>
